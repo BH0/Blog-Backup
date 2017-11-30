@@ -1,0 +1,81 @@
+@import 'animate';
+
+html {
+    font-style: italic;
+    font-size: 16px;
+    background-color: grey;
+    animation: fadeInDownBig 2s;
+}
+
+@media (max-width: 314px) {
+  html {
+    margin-right: 20px;
+    margin-left: 20px; } }
+
+.header {
+    animation: bounce 6s;
+    font-size: 24px;
+}
+.blog-title {
+    border-bottom: 2px dotted black;
+}
+
+.row {
+   color: white; }
+
+a {
+    text-decoration: none;
+    color: yellow;
+
+}
+h2:hover { // article title/s
+    animation: flip 1.4s;
+}
+
+.sidebar { // sidebar.ejs
+    animation: slideInRight 4s;
+    position: fixed;
+}
+
+.blog-nav { // menu.ejs
+    position: fixed;
+    padding-top: 10px; 
+    font-size: 150%;
+    &:hover {
+        animation: swing 1s;
+    }
+}
+
+.blog-footer a:hover {
+
+}
+
+
+/*
+
+.header {
+
+	background-color: #c6cbd3;
+	color: white;
+	font-size: 16px;
+	// text-align: center;
+	width: 800px;
+     	margin: 0 auto;
+	text-align: center;
+}
+
+.mainContent {
+
+	background-color: #c6cbd3;
+	color: white;
+	font-size: 16px;
+	// text-align: center;
+	width: 800px;
+     	margin: 0 auto;
+	text-align: center;
+}
+
+.sidebar {
+	text-align: left;
+}
+*/
