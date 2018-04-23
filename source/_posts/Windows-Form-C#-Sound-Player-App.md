@@ -7,7 +7,22 @@ I assume you know the basics of C# (functions, conditional statements, classes).
 Making graphical user interfaces can often be a pain, thankfully with Windows Forms, it does not have to be - yes, for more complex applications Windows Forms may not be a good fit, but its good enough for our use case. 
 
 # Assets & Setup 
-Because I am lazy and used to HTML, I will be pulling my assets directly from the web, but you can use whatever assets you like [though the code may differ slightly]. The assets will be from Pexel and WavSource and you are free to use them in your projects.  Using Visual Studio; go to "file" > "new" > "project" and select "Windows Forms App (.NET Framework)" [Visual C#], name your project and click "ok". Windows Forms & Visual Studio offers something called "Form Designer" which is a drag & drop graphical interface but we are going to be building our application using C#. Double click the form in the form1.cs[Design] file to get to the code. We should now see something along the lines of a class, 
+Because I am lazy and used to HTML, I will be pulling my assets directly from the web, but you can use whatever assets you like [though the code may differ slightly]. The assets will be from Pexel and WavSource and you are free to use them in your projects.  Using Visual Studio; go to "file" > "new" > "project" and select "Windows Forms App (.NET Framework)" [Visual C#], name your project and click "ok". Windows Forms & Visual Studio offers something called "Form Designer" which is a drag & drop graphical interface but we are going to be building our application using C#. Double click the form in the form1.cs[Design] file to get to the code. We should now see something along the lines of a form class inside a namespace. 
+
+{% codeblock %} 
+/// Assets 
+/* 
+--Images: 
+Lion: https://images.pexels.com/photos/36843/lion-panthera-leo-lioness-animal-world.jpg?auto=compress&cs=tinysrgb&h=350 
+Dog: https://images.pexels.com/photos/356378/pexels-photo-356378.jpeg?auto=compress&cs=tinysrgb&h=350 
+Elephant: https://images.pexels.com/photos/925916/pexels-photo-925916.jpeg?auto=compress&cs=tinysrgb&h=350 
+
+--Sounds: 
+Lion: http://www.wavsource.com/snds_2018-01-14_3453803176249356/animals/lion_roar.wav 
+Dog: http://www.wavsource.com/snds_2018-01-14_3453803176249356/animals/dog_bark_x.wav 
+Elephant: http://www.wavsource.com/snds_2018-01-14_3453803176249356/animals/elephant.wav 
+*/ 
+{% endoodeblock %} 
 
 {% codeblock %} 
 using System;
