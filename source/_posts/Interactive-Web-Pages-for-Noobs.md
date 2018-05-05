@@ -24,7 +24,7 @@ div:hover {
 } 
 {% endcodeblock %} 
 
-Keyframe animations are a method of adding animations (a series of individual frames) to HTML elements. The above-uncommented code is automatic, but by combining that code with "hover" we can mimic user-interaction. 
+Keyframe animations are a method of adding animations (a series of individual frames) to HTML elements. The above-uncommented code is automatic, but by combining that code with "hover" we can mimic user-interaction. Hint: look into "transform" and "transitions". 
 
 # Media Queries (I am possibly cheating here) 
 Media queries are not technically a means of implementing interactivity to your web-page, though they can be used to detect the device's orientation which I am sure you can get creative with - not very flexible though and anything complex will likely require Javascript. You will learn media queries when you learn responsive design for mobile  devices so no code snippets here. 
