@@ -2,7 +2,7 @@ I personally do not like to use the word noob, but I am sure you know what it me
 
 You have probably used a lot of websites which use interactivity and thought "wow, I hope I can do that one day". I personally do this all the time. And this blog post is here to tell you; you can - with some hard work and passion. This blog post will give you a hint as to the kind of stuff you should be search-engining. 
 
-The process of making web pages interactive is called "DOM manipulation" - Document-Object-Model which means that you manipulate the individual elements that exist on the web page. 
+The process of making web pages interactive (that is; they do something when given input) is called "DOM manipulation" by responding to events - Document-Object-Model which means that you manipulate the individual elements that exist on the web page. 
 
 There are two technologies you should be aware of: CSS (version 3, though version 4 seems to be just around the corner) and Javascript. Javascript is a programming language and many perceive it to be complicated - so for now I will focus on CSS. You can do a lot with CSS. 
 
