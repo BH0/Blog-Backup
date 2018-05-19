@@ -4,7 +4,7 @@ It is possible to add styling (CSS rules) using Javascript, but that can become 
 
 I assume you know basic programming, HTML, and CSS. Here is the HTML and CSS we will be working with. 
 
-# The Setup 
+## The Setup 
 {% codeblock %} 
 <!DOCTYPE html>
 <html>
@@ -73,7 +73,7 @@ let divColorChanges = document.querySelector("#toggle-class-on-mouseover");
 let divWhichCanStretch = document.querySelector("#remove-class-on-click"); 
 {% endcodeblock %} 
 
-# Adding A Class After Mouse Click 
+## Adding A Class After Mouse Click 
 To add a class; all we do is use the "classList.add" method, to detect a mouse click event we use the "addEventListener" method. 
 
 {% codeblock %} 
@@ -84,7 +84,7 @@ divWithoutAClass.addEventListener("click", e => {
 
 Notice that I use Javascript to select HTML tags which have specific IDs - this is because an ID in my opinion is usually permanent, and thus I do most my styling using classes. Now, when we click our top div, it's colour will change. 
 
-# Toggling A Class on hover (mouseover) 
+## Toggling A Class on hover (mouseover) 
 To toggle a class when the mouse is over the div, we simply detect for a "mouseover" event and use the "toggle" method. 
 
 {% codeblock %} 
@@ -95,7 +95,7 @@ divColorChanges.addEventListener("mouseover", e => { // mouseover is essentially
 
 Now when we hover our mouse over the middle div, it's colour will change. 
 
-# Removing A Class 
+## Removing A Class 
 If you understand what the above code does, I am sure you can figure out what this code does. 
 {% codeblock %] 
 divWhichCanStretch.addEventListener("click", e => { 
@@ -105,7 +105,7 @@ divWhichCanStretch.addEventListener("click", e => {
 
 This will stop the div from stretching (which was accomplished using a CSS keyframe animation). 
 
-{% More %} 
+## More  
 There is an alternative way of doing this stuff which I will provide code for but I recommend using the code beforehand as it is much cleaner. But, never the less: here are some code snippets that might be of interest. 
 
 {% codeblock %] 
@@ -119,5 +119,5 @@ document.querySelector("div").id = "id"; // set ID to "id"
 document.querySelector("div").style.cssText = "background-color:red;" // messy styling using Javasctript (what we were trying to avoid doing) 
 {% endcodeblock %} 
 
-# What Now 
+## What Now 
 Now you should no longer feel lost when it comes to creating interactive websites using HTML, CSS, and Javascript, so go make something awesome and have fun being classy. 
