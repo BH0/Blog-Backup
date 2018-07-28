@@ -1,6 +1,7 @@
 # Should You Rush Or Take Your Time Coding? 
 
 If you are wondering wether there is an advantage to rushing programming, as opposed to ensuring you make as little typing and other types of mistakes as possible, read this. 
+<!-- more --> 
 
 # Often times, rushing seems better 
 Sometimes, you just really need to see your program working, and therefor decide to rush. You can type fast.. but when it comes to running your code, its difficult to predict how long it will take you to debug what is likely a simple bug that could had been avoided had you just typed a tiny bit slower. 
